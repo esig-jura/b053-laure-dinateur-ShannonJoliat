@@ -64,3 +64,14 @@ h1,h2,h3 {
     font-family: "Changa One", cursive;
     font-weight: 400;
 }
+
+img {
+    height: auto;
+    width: auto;
+}
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    border-radius: 50%;
+}
