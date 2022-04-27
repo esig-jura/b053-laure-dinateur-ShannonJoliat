@@ -97,3 +97,24 @@ footer ul li img {
 section ul li {
     list-style: none;
 }
+
+.contact ul li a {
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: 0 2px;
+    padding: 0 0 0 30px;
+}
+
+.contact ul li a[href^="tél"] {
+    background-image: url("../img/phone.png");
+}
+
+.contact ul li a[href^="mailto"] {
+    background-image: url("../img/mail.png");
+}
+.contact ul li a[href*="twitter"] {
+    background-image: url("../img/twitter.png");
+}
+.contact ul li a[href*="facebook"] {
+    background-image: url("../img/facebook.png");
+}
