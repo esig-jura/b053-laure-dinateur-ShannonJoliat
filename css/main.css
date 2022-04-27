@@ -146,20 +146,39 @@ header nav ul li a {
     color: #fdfffc;
     font-weight: bold;
     padding: 15px 10px; /* 15 px haut/bas et 10px gauche/droite*/
-    transition: color .5s;
+    transition: color .5s; /* ne pas mettre dans le hover */
 }
 
 header nav ul li a:hover {
     color: #2ec4b6;
 }
 
-.profile-photo {
+/*******************************************************************
+
+                            PAGE INFORMATION
+
+ *******************************************************************/
+
+.page-informations main img {
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto; /* pour pouvoir utiliser des marges auto il faut utiliser display block/*
+    /*border-bottom-left-radius: 0;
+    border-top-right-radius: 0;*/
+}
+
+.page-informations h1 {
+    text-align: center;
+}
+
+/*.profile-photo {
     display: block;
     max-width: 150px;
     border-radius: 50%;
     float: left;
     margin: 0 5% 20px 0;
-}
+}*/
 
 footer ul {
     list-style: none;
