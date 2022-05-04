@@ -97,6 +97,10 @@ img {
     max-width: 100%;
 }
 
+main {
+    margin: 0 5%;
+}
+
 /*******************************************************************
 
                             ENTÊTE DU SITE
@@ -155,6 +159,38 @@ header nav ul li a:hover {
 
 /*******************************************************************
 
+                            PIED DE PAGE
+
+ *******************************************************************/
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer ul li img {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+}
+
+footer ul li img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
+
+/*******************************************************************
+
                             PAGE INFORMATION
 
  *******************************************************************/
@@ -180,20 +216,11 @@ header nav ul li a:hover {
     margin: 0 5% 20px 0;
 }*/
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+/*******************************************************************
 
-footer ul li {
-    display: inline-block;
-}
+                            PAGE ME CONTACTER
 
-footer ul li img {
-    width: 50px;
-    height: 50px;
-}
+ *******************************************************************/
 
 .contact ul li {
     list-style: none;
