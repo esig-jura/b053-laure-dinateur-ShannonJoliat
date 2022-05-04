@@ -167,6 +167,10 @@ footer {
     text-align: center;
 }
 
+footer nav {
+    margin-bottom: 1rem;
+}
+
 footer nav ul {
     list-style: none;
     padding: 0;
