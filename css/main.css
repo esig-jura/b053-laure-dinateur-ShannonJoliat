@@ -195,6 +195,34 @@ footer ul li img:hover {
 
 /*******************************************************************
 
+                            PAGE INDEX
+
+ *******************************************************************/
+
+.page-index .realisations {
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-index .realisations li {
+    flex-basis: 45%;
+    padding: 1rem 2.5%;
+}
+
+.page-index .realisations figure {
+    margin: 0;
+}
+
+
+
+
+
+
+/*******************************************************************
+
                             PAGE INFORMATION
 
  *******************************************************************/
