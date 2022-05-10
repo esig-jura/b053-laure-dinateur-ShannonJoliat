@@ -201,31 +201,42 @@ footer ul li img:hover {
 
 .page-index .realisations {
     padding: 0;
+    margin: 0;
     list-style-type: none;
 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .page-index .realisations li {
     flex-basis: 45%;
     padding: 1rem 2.5%;
+    vertical-align: top;
 }
 
+.page-index .realisations li a {
+    color: #011627;
+}
 .page-index .realisations figure {
     margin: 0;
 }
 
+.page-index .realisations figcaption {
+    padding: 10px;
+    font-size: 1rem;
+}
 
 
 
 
 
-/*******************************************************************
+    /*******************************************************************
 
-                            PAGE INFORMATION
+                                PAGE INFORMATION
 
- *******************************************************************/
+     *******************************************************************/
 
 .page-informations main img {
     border-radius: 50%;
